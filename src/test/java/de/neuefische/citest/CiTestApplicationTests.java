@@ -9,7 +9,6 @@ class CiTestApplicationTests {
 
     @Test
     void contextLoads() {
-        Assertions.fail();
     }
 
 }
