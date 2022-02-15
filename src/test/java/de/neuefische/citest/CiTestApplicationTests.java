@@ -1,5 +1,6 @@
 package de.neuefische.citest;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -8,6 +9,7 @@ class CiTestApplicationTests {
 
     @Test
     void contextLoads() {
+        Assertions.fail();
     }
 
 }
